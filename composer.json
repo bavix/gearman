@@ -1,0 +1,19 @@
+{
+  "name": "bavix/gearman",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Babichev Maxim",
+      "email": "info@babichev.net"
+    }
+  ],
+  "suggest": {
+    "ext-gearman": "The PECL Gearman extension"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bavix\\": "src/"
+    }
+  }
+}
