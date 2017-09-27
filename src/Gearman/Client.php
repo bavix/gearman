@@ -16,6 +16,8 @@ class Client extends \GearmanClient
      * @param string $workload
      * @param string $unique
      * @return string A string representing the results of running a task
+     *
+     * @codeCoverageIgnore
      */
     public function doHigh($function_name, $workload, $unique = null)
     {
@@ -37,6 +39,8 @@ class Client extends \GearmanClient
      * @param string $workload
      * @param string $unique
      * @return string A string representing the results of running a task
+     *
+     * @codeCoverageIgnore
      */
     public function doNormal($function_name, $workload, $unique = null)
     {
@@ -58,6 +62,8 @@ class Client extends \GearmanClient
      * @param string $workload
      * @param string $unique
      * @return string A string representing the results of running a task
+     *
+     * @codeCoverageIgnore
      */
     public function doLow($function_name, $workload, $unique = null)
     {
@@ -77,6 +83,8 @@ class Client extends \GearmanClient
      * @param string $workload
      * @param string $unique
      * @return string The job handle for the submitted task
+     *
+     * @codeCoverageIgnore
      */
     public function doBackground($function_name, $workload, $unique = null)
     {
@@ -97,6 +105,8 @@ class Client extends \GearmanClient
      * @param string $workload
      * @param string $unique
      * @return string The job handle for the submitted task
+     *
+     * @codeCoverageIgnore
      */
     public function doHighBackground($function_name, $workload, $unique = null)
     {
@@ -117,6 +127,8 @@ class Client extends \GearmanClient
      * @param string $workload
      * @param string $unique
      * @return string The job handle for the submitted task
+     *
+     * @codeCoverageIgnore
      */
     public function doLowBackground($function_name, $workload, $unique = null)
     {
@@ -139,6 +151,8 @@ class Client extends \GearmanClient
      * @param mixed $context
      * @param string $unique
      * @return \GearmanTask A GearmanTask object or false if the task could not be added
+     *
+     * @codeCoverageIgnore
      */
     public function addTask($function_name, $workload, $context = null, $unique = null)
     {
@@ -162,6 +176,8 @@ class Client extends \GearmanClient
      * @param mixed $context
      * @param string $unique
      * @return \GearmanTask A GearmanTask object or false if the task could not be added
+     *
+     * @codeCoverageIgnore
      */
     public function addTaskHigh($function_name, $workload, $context = null, $unique = null)
     {
@@ -185,6 +201,8 @@ class Client extends \GearmanClient
      * @param mixed $context
      * @param string $unique
      * @return \GearmanTask A GearmanTask object or false if the task could not be added
+     *
+     * @codeCoverageIgnore
      */
     public function addTaskLow($function_name, $workload, $context = null, $unique = null)
     {
@@ -207,6 +225,8 @@ class Client extends \GearmanClient
      * @param mixed $context
      * @param string $unique
      * @return \GearmanTask A GearmanTask object or false if the task could not be added
+     *
+     * @codeCoverageIgnore
      */
     public function addTaskBackground($function_name, $workload, $context = null, $unique = null)
     {
@@ -230,6 +250,8 @@ class Client extends \GearmanClient
      * @param mixed $context
      * @param string $unique
      * @return \GearmanTask A GearmanTask object or false if the task could not be added
+     *
+     * @codeCoverageIgnore
      */
     public function addTaskHighBackground($function_name, $workload, $context = null, $unique = null)
     {
@@ -253,6 +275,8 @@ class Client extends \GearmanClient
      * @param mixed $context
      * @param string $unique
      * @return \GearmanTask A GearmanTask object or false if the task could not be added
+     *
+     * @codeCoverageIgnore
      */
     public function addTaskLowBackground($function_name, $workload, $context = null, $unique = null)
     {

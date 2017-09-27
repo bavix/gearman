@@ -15,6 +15,8 @@ class Worker extends \GearmanWorker
      *        server
      * @param int $timeout An interval of time in seconds
      * @return bool A standard Gearman return value
+     *
+     * @codeCoverageIgnore
      */
     public function register($function_name, $timeout = null)
     {
@@ -32,6 +34,8 @@ class Worker extends \GearmanWorker
      * @param string $function_name The name of a function to register with the job
      *        server
      * @return bool A standard Gearman return value
+     *
+     * @codeCoverageIgnore
      */
     public function unregister($function_name)
     {
@@ -54,6 +58,8 @@ class Worker extends \GearmanWorker
      *        be modified by the worker function
      * @param int $timeout An interval of time in seconds
      * @return bool
+     *
+     * @codeCoverageIgnore
      */
     public function addFunction($function_name, $function, $context = null, $timeout = 0)
     {

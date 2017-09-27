@@ -8,12 +8,20 @@
       "email": "info@babichev.net"
     }
   ],
+  "require-dev": {
+    "bavix/tests": "^1.0"
+  },
   "suggest": {
     "ext-gearman": "The PECL Gearman extension"
   },
   "autoload": {
     "psr-4": {
       "Bavix\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
     }
   }
 }
