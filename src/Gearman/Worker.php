@@ -2,6 +2,8 @@
 
 namespace Bavix\Gearman;
 
+use Bavix\Helpers\Closure;
+
 class Worker extends \GearmanWorker
 {
 
@@ -65,7 +67,7 @@ class Worker extends \GearmanWorker
     {
         return parent::addFunction(
             Task::getName($function_name),
-            $function,
+            Closure::fromCallable($function),
             $context,
             $timeout
         );

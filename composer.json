@@ -8,6 +8,9 @@
       "email": "info@babichev.net"
     }
   ],
+  "require": {
+    "bavix/helpers": "^1.0"
+  },
   "require-dev": {
     "bavix/tests": "^1.0"
   },
