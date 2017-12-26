@@ -1,8 +1,12 @@
 build:
 
+  dependencies:
+    before:
+      - sudo apt-get install -y gearman gearman-job-server libgearman-dev
+  
   environment:
-     php:
-       version: 7.1
+    php:
+      version: 7.1
 
   nodes:
     analysis:
