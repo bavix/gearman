@@ -5,6 +5,7 @@
 [![Build Status](https://scrutinizer-ci.com/g/bavix/gearman/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bavix/gearman/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/bavix/gearman/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
+[![Package Rank](https://phppackages.org/p/bavix/gearman/badge/rank.svg)](https://packagist.org/packages/bavix/gearman)
 [![Latest Stable Version](https://poser.pugx.org/bavix/gearman/v/stable)](https://packagist.org/packages/bavix/gearman)
 [![Latest Unstable Version](https://poser.pugx.org/bavix/gearman/v/unstable)](https://packagist.org/packages/bavix/gearman)
 [![License](https://poser.pugx.org/bavix/gearman/license)](https://packagist.org/packages/bavix/gearman)
