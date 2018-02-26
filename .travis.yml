@@ -4,5 +4,13 @@ php:
   - '7.2'
   - nightly
 
+before_install:
+- sudo apt-get install software-properties-common -y
+- sudo add-apt-repository ppa:gearman-developers/ppa -y
+- sudo apt-get update
+
+install:
+- sudo apt-get install gearman-job-server libgearman-dev
+
 before_script:
   - "composer install"
