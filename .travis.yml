@@ -5,7 +5,7 @@ php:
   - nightly
   
 install:
-  - sudo apt-get -y install gearman-job-server php-gearman -y
+  - sudo apt-get -y install gearman-job-server php-gearman
 
 before_script:
   - "composer install"
